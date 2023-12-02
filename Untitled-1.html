@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF=8">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="cook">
+        <div class="cook1">
+    <header><h1 id="title">COOKING RECIPIE</h1>
+        </div> 
+<div class="cook2">
+    <p id="description">fill in the below</p></header>
+  <form id="survey-form"> <br>
+<label for="name" id="name-label"> Name: <input type="text" id="name" placeholder="enter your name" required></label><br>
+<div><br>
+<label for="email" id="email-label">Email: <input type="email" id="email" placeholder="enter your email"  required></label><br>
+</div>
+<div><br>
+<label for="number" id="number-label">Phone number: (optional): <input type="number" id="number"  placeholder="number" ></label><br>
+</div>
+<div><br>
+<label for="dropdown">recipie 
+  <select id="dropdown">
+  <option>vegeterian</option>
+ <option>non-vegetarian</option>
+ 
+  </select>
+</div><br>
+  </label><br>
+Feedback
+  <textarea id="com" placeholder="enter your comment here..."></textarea>
+  </label><br>
+  <div><br>
+  <label for="terms-and-conditions">
+    <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <button onclick="myFunction()">terms and conditions</button>
+    <script>
+      function myFunction() {
+        alert("these recipie are for cooking purposes only. people above the age 12 are only allowed");
+      }
+      </script>
+    </label>
+<br>
+  </div><br>
+  <div class="cook4">
+    <form action="page2.html" method="post">
+      <a href="page2.html" >submit</a>
+    <input type="submit" ></a>
+    </form>
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
